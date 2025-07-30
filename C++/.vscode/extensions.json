@@ -1,11 +1,12 @@
 {
     "recommendations":
     [
-        "ms-vscode.cpptools",
-        "ms-vscode.cmake-tools",
         "ms-vscode.cpptools-extension-pack",
         "twxs.cmake",
+        "aaron-bond.better-comments",
+        "pomdtr.excalidraw-editor",
         "github.copilot",
-        "github.copilot-chat"
+        "github.copilot-chat",
+        "rid9.datetime"
     ]
 }

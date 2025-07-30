@@ -36,5 +36,11 @@
     "git.autofetch": true,
     "C_Cpp.default.cStandard": "c89",
     "C_Cpp.default.cppStandard": "c++98",
-    "C_Cpp.autocompleteAddParentheses": true
+    "C_Cpp.autocompleteAddParentheses": true,
+    "excalidraw.theme": "dark",
+    "dateTime.showAMPM": true,
+    "dateTime.showDayOfMonth": true,
+    "dateTime.showDayOfWeek": true,
+    "dateTime.showMonth": true,
+    "dateTime.showSeconds": true,
 }
