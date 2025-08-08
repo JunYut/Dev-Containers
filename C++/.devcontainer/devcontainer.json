@@ -6,6 +6,10 @@
     },
     "mounts":
     [
-        "source=/home/bazzite/Projects,target=/home/vscode,type=bind"
+        "source=/home/bazzite/Projects/,target=/home/vscode/Projects/,type=bind",
+        "source=/home/bazzite/.gitconfig,target=/home/vscode/.gitconfig,type=bind",
+        "source=/home/bazzite/.tmux.conf,target=/home/vscode/.tmux.conf,type=bind",
+        "source=/home/bazzite/.vimrc,target=/home/vscode/.vimrc,type=bind",
+        "source=/home/bazzite/.bashrc.d/aliases.sh,target=/home/vscode/.bash_aliases,type=bind"
     ]
 }
