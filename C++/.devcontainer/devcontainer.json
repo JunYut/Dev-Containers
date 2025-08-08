@@ -6,6 +6,6 @@
     },
     "mounts":
     [
-        "source=/home/bazzite,target=/home/vscode,type=bind"
+        "source=/home/bazzite/Projects,target=/home/vscode,type=bind"
     ]
 }
