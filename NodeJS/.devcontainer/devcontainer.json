@@ -1,5 +1,5 @@
 {
-    "name": "npm",
+    "name": "NodeJS",
     "build":
     {
         "dockerfile": "Dockerfile"
