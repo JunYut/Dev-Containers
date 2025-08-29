@@ -1,0 +1,8 @@
+{
+    "recommendations":
+    [
+        "christian-kohler.npm-intellisense",
+        "bradlc.vscode-tailwindcss",
+        "antfu.vite"
+    ]
+}

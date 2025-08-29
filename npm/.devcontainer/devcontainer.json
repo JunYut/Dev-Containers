@@ -1,0 +1,15 @@
+{
+    "name": "npm",
+    "build":
+    {
+        "dockerfile": "Dockerfile"
+    },
+    "mounts":
+    [
+        "source=/home/bazzite/Projects/,target=/home/node/Projects/,type=bind",
+        "source=/home/bazzite/.gitconfig,target=/home/node/.gitconfig,type=bind",
+        "source=/home/bazzite/.tmux.conf,target=/home/node/.tmux.conf,type=bind",
+        "source=/home/bazzite/.vimrc,target=/home/node/.vimrc,type=bind",
+        "source=/home/bazzite/.bashrc.d/aliases.sh,target=/home/node/.bash_aliases,type=bind"
+    ]
+}
