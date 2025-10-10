@@ -1,0 +1,22 @@
+{
+    "name": "Java",
+    "build":
+    {
+        "dockerfile": "Dockerfile"
+    },
+    "mounts":
+    [
+        "source=/home/bazzite/Projects/,target=/home/java/Projects/,type=bind",
+        "source=/home/bazzite/.gitconfig,target=/home/java/.gitconfig,type=bind",
+        "source=/home/bazzite/.tmux.conf,target=/home/java/.tmux.conf,type=bind",
+        "source=/home/bazzite/.vimrc,target=/home/java/.vimrc,type=bind",
+        "source=/home/bazzite/.bashrc.d/aliases.sh,target=/home/java/.bash_aliases,type=bind"
+    ],
+    "features": {
+       "ghcr.io/devcontainers/features/java:1": {
+          "version": "none",
+          "installGradle": "true",
+          "installMaven": "true"
+      }
+    }
+}
