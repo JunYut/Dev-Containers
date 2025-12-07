@@ -5,8 +5,10 @@
         "twxs.cmake",
         "aaron-bond.better-comments",
         "pomdtr.excalidraw-editor",
+        "github.vscode-github-actions",
         "github.copilot",
         "github.copilot-chat",
+        "redhat.vscode-yaml",
         "rid9.datetime"
     ]
 }
